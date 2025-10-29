@@ -15,8 +15,13 @@ variable "sg_name" {
 #   type = string
 #   default = ""
 # }
+# variable "sg_description" {
+#   type    = string
+#   default = ""
+# }
+
 variable "sg_description" {
-  type    = string
+  type        = string
   default = ""
 }
 
